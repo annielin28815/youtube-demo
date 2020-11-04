@@ -1,0 +1,12 @@
+a {
+  color: #fa0;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #aaa;
+}
+
+h3 {
+  color: #f00;
+}
