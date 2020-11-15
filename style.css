@@ -75,8 +75,12 @@ p {
   padding: 10px 10px;
   overflow: hidden;
   display: flex;
-  border-bottom: 1px solid #e0e0e0;
+  /* border-bottom: 1px solid #e0e0e0; */
   align-items: center;
+}
+
+.item:not(:first-child) {
+  border-top: 1px solid #e0e0e0;
 }
 .item:hover {
   background-color: #e0e0e0;
